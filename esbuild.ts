@@ -1,9 +1,10 @@
 import * as esbuild from "esbuild";
 
 await esbuild.build({
-  entryPoints: ["src/keep.ts"],
+  entryPoints: ["src/index.ts"],
   bundle: true,
-  outfile: "dist/keep.js",
-  minify: false,
+  format: "esm",
+  outfile: "dist/index.js",
+  minify: true,
   platform: "node",
 });

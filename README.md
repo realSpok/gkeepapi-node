@@ -17,7 +17,7 @@ npm install 'gkeepapi-node'
 Then you can retrieve and update notes like so:
 
 ```typescript
-import { Keep, ColorValue } from "gkeepapi-node";
+import Keep from "gkeepapi-node";
 
 // refer to https://github.com/kiwiz/gkeepapi and https://github.com/simon-weber/gpsoauth on how to get the master_token/encrypted_password for your account
 const keep = new Keep(process.env.email, process.env.encrypted_password);
