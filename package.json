@@ -11,7 +11,7 @@
     "typescript": "^5.0.0"
   },
   "description": "A node-js port of the amazing python Keep unofficial client [gkeepapi](https://github.com/kiwiz/gkeepapi), for handling Google Keep notes.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./dist/index.js",
   "exports": "./dist/index.js",
   "module": "./dist/index.js",
